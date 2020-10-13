@@ -1,4 +1,5 @@
 .body{
+	font-size: larger;
     background-color: rgba(238, 174, 202, 1);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 
@@ -18,10 +19,14 @@ html,
 body {
 	height: 100%;
 	font-family: "Open Sans", sans-serif;
+	font: 1em sans-serif;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	font-smooth: antialiased;
 }
-
+.p{
+	font-size: large;
+	text-transform: uppercase;
+}
 h1,
 h2,
 h3,

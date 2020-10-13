@@ -1,11 +1,19 @@
 {
   "name": "portfolio-developer",
   "version": "1.0.0",
-  "description": "",
+  "description": "README.md Thinkful Portfolio Instructions: Create a portfolio with the following:",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christopher-Xavier/Professional-Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Christopher-Xavier/Professional-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Christopher-Xavier/Professional-Portfolio#readme"
 }
