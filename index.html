@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Christopher Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+       
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            background-color: rgba(238, 174, 202, 1);
+            background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+
+        }
+
+        /*  Header/Blog Title */
+        .header {
+            padding: 30px;
+            background-color: rgba(238, 174, 202, 1);
+            background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Create three unequal columns that floats next to each other */
+        /*Left column*/
+        .leftcolumn {
+            float: left;
+            width: 25%;
+        }
+
+        /*Right column */
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: rgba(238, 174, 202, 1);
+            background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+            padding-left: 20px;
+        }
+
+        /*Fake Image */
+        .fakeimg {
+            background-color: rgb(238, 174, 202);
+            background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Add a card effect for articles */
+        .card {
+            background-color: transparent;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-justify: auto;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+
+                /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+                @media screen and (max-width: 800px) {
+
+                    .leftcolumn,
+                    .rightcolumn {
+                        width: 100%;
+                        padding: 0;
+                    }
+                }
+
+
+            }
+
+            /* Style the footer */
+            .footer {
+                background-color: rgb(238, 174, 202);
+                background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+                padding: 10px;
+
+            }
+        }
+    </style>
+    <link href="material-dashboard-react.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Fullstack Developer</h1>
+        <img src="https://christopher-xavier.github.io/Portfolio.Final/080343DD-9417-46ED-AA08-6E76F1F36510_1_105_c.jpeg"
+        alt="profile-avatar" />
+        <img src="./porfolio.jpg" alt="banner" class="image-rounded"/>
+    </div>
+
+    <div class="topnav">
+        <a href="https://github.com/Christopher-Xavier">Github Profile</a>
+        <a href="https://www.Linkedin.com/mwlite/in/christopher-bogan">Linkedin</a>
+        <a href="home">Home</a>
+    </div>
+    
+    <div style="width:auto;" />
+    <div class="card">
+        <h2>Hello World, Its Christopher!</h2>
+        <h1>Fullstack Web developer</h1>
+        <p>My name is Christopher and I'm a Full Stack Web Developer with the tech skills using "React","
+            Next.js" "Javascript","HTML5",and on the backend Node.js,"PostgreSQL", and "Express".
+            I bring to this exciting industry a fresh breath of creativity, and an ambitious personality.
+            My ideas and coredriven life skillsis by far what seperates me from the average developer. I have a
+            lot
+            to offer when it comes to teamwork.
+            Coming from two very hard working parents is why I value work ethic, determination and positivity so
+            much, and those character
+            traits is what helped defined who I am today.
+            I never give up and always finish what I start.</p>
+    </div>
+    </div>
+    <hr>
+    <section class="wrapper">
+        <p class="item">
+        </p>
+        <h2>About me</h2>
+        <div class="group">
+            <div class="item item-double">
+                <p class="black fancy"> I'll like to explain who I am in greater detail who I am.
+                </p>
+                <p>Im very outgoing and very passionate about programming and have been as long as I can remember.
+                    Due to
+                    Covid 19 I lost everything, my job, home, and I didnt let that stop my passion for what I was
+                    truly put on this earth to do.
+                    It seemed like a nightmare at first but I'm very optimistic and seen the beauty inthe
+                    transformationthat was laid upon me.
+                    I took it as gift from the universe, and that is what makes me stand out.
+                    My positivity and values in life that no matter what, you can always find beauty and a rainbow
+                    after the storm.When Im not coding or working I love to read up on new technologies and seeking
+                    self
+                    improvement techniques because I feel there is always room for improvement.
+                    My favorite food is hotwings and I love animals, also I volunteer on my free time
+                    helping young teens who come from challenging homes
+                    Thats why I always say, "reach For The Stars" I love learning new things and
+                    pushing myself to the limit. Helping others in a professional stance, enjoying the complex
+                    things about coding is why I love it so much.
+                    I also love fitness,and healthy mindful exercises,as well as helping others and problem
+                    solving! In my free time I love to read up on new programs and fitness ,health, and experiencing
+                    life
+                    is everything.</p>
+            </div>
+
+            <hr>
+
+            <h3>PROJECTS</h3>
+            <section>
+                <div class="group1">
+                    <div class="item1"><img src="./src/images/7mS5ot.png" alt="Quiz-App-Christopher Thinkful"
+                            class="image rounded"/>
+                        <h3><a href="https://thinkful-ei-panda.github.io/ei-quiz-app-Chatchawan-Christopher/">Quiz
+                                App</a>
+                
+                            </h3>
+                        <p>CLICK THE LINK ABOVE TO TRY</p></h3>
+                        <p>This quiz will test your understanding on HTML, CSS, Javascript and JQuery.</p>
+                        <br> <a
+                            href="https://github.com/thinkful-ei-panda/ei-quiz-app-Chatchawan-Christopher.git">Github
+                            Repo</a>
+                        <p>Tech stack; HTML, CSS, JQuery, and Javascript
+                            This is my first ever Quiz App. I came up with the design and also the javascript questions to base
+                            the app from. CSS, Html, and Javascript were used to implement the app.</p>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="item"> <img src="./src/images/bookmarks.jpg"
+                        alt="Bookmark -App - Christopher Thinkful" class="image-rounded"/>
+                    <h3><a href="https://christopher-xavier.github.io/Revision-Bookmarks-App/">Bookmark App</a></h3>
+                    <p>The Bookmark App I built. this I'll share what my goal was in creating it, the skills/languages I
+                       <p> applied,
+                        and what I learned doing This was the first app I built and I had a very challenging but fun</p>
+                        time with.</p>
+                    <a href="https://github.com/Christopher-Xavier/Revision-Bookmarks-App.git">Github Repo</a>
+                    <p>Tech stack: JQuery, HTML, CSS, and Node.js</p>
+                </div>
+        </div>
+        </div>
+    </section>
+
+
+    <hr>
+
+    <div class="group2">
+        <div class="item2"> <img src="./src/images/17955909.jpg" alt="Petful-app - Christopher Thinkful" class="image-rounded" />
+            <h3><a href="https://petful-client-blue.vercel.app/">My Petful App</a></h3>
+            <a href="https://github.com/Christopher-Xavier/DSA-Christopher-Petful-Server">Github Repo</a>
+            <p>This was overall my favorite app named Petful. Here I implemented an pet shop that that lets the
+                user adopt playful pets with an algoirithim concept deealing with stacks and queues.
+                Tech Stack includes, HTML, CSS, Node.js, Express, Javascript, and React.js.</p>
+            <p></p>
+        </div>
+    </div>
+    <hr>
+    <div class="group3">
+    <div class="item3"><img
+            src="./src/images/buddyup-landing.jpg"
+            alt="Team Project - Christopher thinkful" class="image rounded" />
+        <h3><a href="https://buddyup-client-o76t0691v.vercel.app/register">Buddy Up App</a></h3>
+        <a href="https://github.com/thinkful-ei-panda/buddyup-client.git">Github Repo</a>
+        <p>This was one interesting one, basically I came up with this app called "Buddy Up" and the concept
+            behind it was if you are a person like myself, I hate doing events or shoopping by mysef, but with
+            Buddy Up i can post an event or activity, then a user can either respond to it and now Ive meet new friend!
+            this was a very challenging group and we all had very strong personalites, buti in the end weall
+            came together and taught one another valuable key lessons to take with us on our journey. </p>
+    </div>
+
+
+        <div class="column side">
+            <h2>Tech Skills</h2>
+            <p>FrontEnd: React.js, HTML, CSS, Javascript, Jquery, and on the
+                Backend:Node.js, Express, And PostgreSQL databases..</p>
+        </div>
+    </div>
+    <hr>
+    <div class="footer">
+        <p>Christopher Bogan</p>
+        <!-- content -->
+        <section class="mainContent">
+            <!-- Contact details -->
+        </section>
+        <section class="section1">
+            <!--content-->
+        </section>
+        <h2 class="footer">Contact Me</h2>
+        <div class="section1Content">
+            <p><span>Email :</span> Professorx71@icloud.com</p>
+            <p><span>Website :</span>Professorxavier.tech</p>
+            <p><span>Phone :</span> (404)-453-6875</p>
+            <p><span>Address :</span> Atlanta, Georgia</p>
+        </div>
+        <a href="https://professorxavier.tech">Professional Developer Site</a>
+    </div>
+    </section><!-- Code injected by live-server -->
+    <script type="text/javascript">
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() ==
+                            "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date()
+                                .valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        } else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+    
+    </script>
+</body>
+
+</html>
